@@ -1,40 +1,40 @@
-<h1>Fiche Contact</h1>
+<h1 style="text-align: center">Fiche Contact</h1>
 
 <section>
-    <div class=2>
+    <div class=2 style="text-align: center">
         <p>Photo</p>
         <input type="file">
     </div>
 </section>
 
 <section>
-    <div>
+    <div style="text-align: center">
         <p>Adresse postale</p>
         <input type="text" placeholder="Adresse" name="text">
     </div>
-    <div>
+    <div style="text-align: center">
         <input type="text" placeholder="Région/Département" name="text">
     </div>
-    <div>
+    <div style="text-align: center">
     <input type="text" placeholder="Commune" name="text">
     </div>
-    <div>
+    <div style="text-align: center">
     <input type="text" placeholder="Code Postal" name="text">
     </div>
 </section>
 
 <section>
-<div>
+<div style="text-align: center">
     <p>Numéros de téléphone</p>
     <input type="text" placeholder="Téléphone mobile" name="text"><br>
     <input type="text" placeholder="Téléphone fixe" name="text">
 </div>
 </section>
 
-<section>
+<section style="text-align: center">
     <p>Commentaires contact</p>
     <p>Date/ Lieu/ Commentaire</p>
-    <input type="text" placeholder="Commentaires contact" name="text"><br>
     <input type="date"><br>
+    <input type="text" placeholder="Lieu" name="text"><br>
     <textarea name="text"></textarea>
 </section>
