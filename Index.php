@@ -7,12 +7,8 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        <header>
-            <nav></nav>
-        </header>
-
-
-
-        <footer></footer>
+        <footer>
+            
+        </footer>
     </body>
 </html>
