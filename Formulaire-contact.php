@@ -38,3 +38,4 @@
     <input type="text" placeholder="Lieu" name="text"><br>
     <textarea name="text"></textarea>
 </section>
+<body bgcolor="#77B5FE">

@@ -47,4 +47,4 @@
     <input type="submit" value="soumettre">
     </div>
 </form>
-<body bgcolor="#E6E6FA">
+<body bgcolor="#77B5FE">
