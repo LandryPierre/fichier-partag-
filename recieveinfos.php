@@ -68,7 +68,7 @@ $email = $_POST["email"];
 
 include("bd.php");
 
-$query = "INSERT INTO `entite` (`identite`, `nom`, `description`, `voie_adresse`, `infos_complementaire_adresse`, `lieudit_adresse`, `code_postal`, `commune`, `telephone_fixe`, `telephone_mobile`, `email`, `site_web`, `logo`, `fax`) VALUES (NULL, '".$nom."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
+$query = "INSERT INTO `entite` (`identite`, `nom`, `description`, `voie_adresse`, `infos_complementaire_adresse`, `lieudit_adresse`, `code_postal`, `commune`, `telephone_fixe`, `telephone_mobile`, `email`, `site_web`, `logo`, `fax`) VALUES (NULL, '".$nom."', $description, $voie_adresse, $lieu_dit, $infos_complementaire_adresse,$code_postal, $commune, $telephone_fixe, $telephone_mobile,$email, $site_web, $fax )";
 
 $bdd->exec($query);
 
