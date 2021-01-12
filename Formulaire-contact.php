@@ -1,5 +1,5 @@
 <h1 style="text-align: center">Fiche Contact</h1>
-
+<form method="post" action="cible.php">
 <section>
     <div class=2 style="text-align: center">
         <p>Photo</p>
@@ -39,3 +39,4 @@
     <textarea name="text"></textarea>
 </section>
 <body bgcolor="#77B5FE">
+</form>
