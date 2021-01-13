@@ -7,7 +7,7 @@
     </div>
     <div style='text-align: center'>
     <p>Nom de l'entreprise</p>
-        <input type="text" placeholder="Adresse" name="nom">
+        <input type="text" placeholder="Nom entreprise" name="nom">
     </div>
 </section>
 

@@ -30,6 +30,11 @@ if (!isset($_POST["code_postal"]))
 }
 $code_postal = $_POST["code_postal"];
 
+/* if (!isset($_POST["infos_complementaire_adresse"]))
+{
+    die("Champ infos_complementaire_adresse manquant");
+}*/
+$infos_complementaire_adresse = '';//$_POST["infos_complementaire_adresse"]; 
 if (!isset($_POST["description"]))
 {
     die("Champ description manquant");
@@ -72,4 +77,5 @@ $query = "INSERT INTO `entite` (`identite`, `nom`, `description`, `voie_adresse`
 
 $bdd->exec($query);
 
+echo "<strong>Enregistrement de l'entité réussie!<strong>";
 ?>
